@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Abhirekha Thimmasani’s Introductions Website</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <meta name="description" content="Introductions website for Abhirekha Thimmasani." />
+</head>
+<body>
+  <header class="site-header fade-in" role="banner">
+    <!-- Requirement 2: centered copy of me-800-by-800.jpg at the top -->
+    <img
+      src="images/me-800-by-800.jpg"
+      alt="Head-and-shoulders portrait of Abhirekha Thimmasani"
+      class="hero-image"
+      width="800" height="800"
+    />
+
+    <!-- Requirement 1: exact heading text format with curly apostrophe -->
+    <h1>Abhirekha Thimmasani’s Introductions Website</h1>
+
+    <!-- Requirement 1: separate lines for email and Discord in the heading section -->
+    <p class="subtitle">
+      Lewis Email: <a href="mailto:AbhirekhaThimmasan@lewisu.edu">AbhirekhaThimmasan@lewisu.edu</a>
+    </p>
+    <p class="subtitle">
+      Discord: <span class="mono">@abhirekhathimmasan</span>
+    </p>
+  </header>
+
+  <main id="content" class="content" role="main">
+    <!-- Requirement 3: Introduction -->
+    <section class="info-section fade-in" aria-labelledby="intro-heading">
+      <h2 id="intro-heading">Introduction</h2>
+
+      <!-- Requirement 2: include the thumbnail version on the page -->
+      <img
+        src="images/me-300-by-300.jpg"
+        alt="Thumbnail portrait of Abhirekha Thimmasani"
+        class="thumbnail-image"
+        width="300" height="300"
+      />
+
+      <p>
+        Hi — I’m <strong>Abhirekha Thimmasani</strong>. I’m a backend-leaning software professional
+        currently studying <strong>Software Architecture &amp; Design</strong> (major) with a
+        <strong>minor in Data Engineering</strong>. My family keeps me grounded and cheering; when
+        I’m not modeling services and APIs, I’m usually helping out at home or
+        catching up with cousins. I love building scalable systems and writing code that’s readable,
+        testable, and a joy to maintain.
+      </p>
+    </section>
+
+    <!-- Requirement 3: What I Hope to Learn in this Course (bulleted list) -->
+    <section class="info-section fade-in" aria-labelledby="learn-heading">
+      <h2 id="learn-heading">What I Hope to Learn in this Course</h2>
+      <ul>
+        <li>How to choose and justify architecture styles and patterns for real projects.</li>
+        <li>Designing for scalability, observability, and reliability from day one.</li>
+        <li>Trade-offs among monoliths, microservices, and modular monoliths.</li>
+        <li>Documenting architectures with clarity (C4, ADRs) and “living” diagrams.</li>
+        <li>Security, performance, and cost as first-class architectural concerns.</li>
+      </ul>
+    </section>
+
+    <!-- Optional extra content retained from your page -->
+    <section class="info-section fade-in" aria-labelledby="experience-heading">
+      <h2 id="experience-heading">Work Experience</h2>
+      <ul>
+        <li>Developed RESTful APIs with <strong>Python (Flask/Django)</strong> and <strong>Java (Spring Boot)</strong>.</li>
+        <li>Optimized queries across <strong>PostgreSQL</strong> and <strong>MongoDB</strong>.</li>
+        <li>Implemented microservices and internal developer tooling.</li>
+        <li>Deployed with <strong>Docker</strong> and <strong>AWS</strong>.</li>
+        <li>Maintained high automated test coverage for critical services.</li>
+      </ul>
+    </section>
+
+    <!-- Requirement 3: My Favorite Hobby / Activity -->
+    <section class="info-section fade-in" aria-labelledby="hobby-heading">
+      <h2 id="hobby-heading">My Favorite Hobby / Activity</h2>
+      <ul>
+        <li>Weekend hiking and nature walks.</li>
+        <li>Digital painting and sketching.</li>
+      </ul>
+      <p>
+        Curious about hiking? Here’s a helpful overview on
+        <a href="https://en.wikipedia.org/wiki/Hiking" target="_blank" rel="noopener">what hiking is</a>.
+      </p>
+    </section>
+
+    <!-- Requirement 3: Fun Fact -->
+    <section class="info-section fade-in" aria-labelledby="funfact-heading">
+      <h2 id="funfact-heading">Fun Fact</h2>
+      <p>
+        I once designed and shipped a tiny website overnight for a community event — and it’s still live.
+      </p>
+    </section>
+
+    <!-- Contact (kept — email already included above per Requirement 1) -->
+    <section class="info-section fade-in" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact</h2>
+      <p>Email: <a href="mailto:AbhirekhaThimmasan@lewisu.edu">AbhirekhaThimmasan@lewisu.edu</a></p>
+      <p>Discord: <span class="mono">@abhirekhathimmasan</span></p>
+      <p>GitHub: <a href="https://github.com/Abhirekha2000" target="_blank" rel="noopener">github.com/Abhirekha2000</a></p>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <p>
+      <time id="last-updated" datetime="">Last updated: <!-- filled by JS --></time>
+    </p>
+    <p class="tiny">“Curly” quotes and square list markers enforced site-wide.</p>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
